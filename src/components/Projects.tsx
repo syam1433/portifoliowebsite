@@ -19,7 +19,7 @@ export function Projects() {
       image: clock,
       technologies: ["React", "Tailwind CSS"],
       liveLink: "https://clock-two-flame.vercel.app/", 
-      githubLink: "https://github.com/your-username/admin-dashboard", 
+      githubLink: "https://github.com/syam1433/clocktime", 
       stats: { stars: "25", views: "1.2k" },
       gradient: "from-blue-500 to-purple-600"
     },
@@ -29,7 +29,7 @@ export function Projects() {
       image: "https://images.unsplash.com/photo-1526925539332-aa3b66e35444?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBhcHBsaWNhdGlvbnxlbnwxfHx8fDE3NTQ1NDkwMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       technologies: ["React", "Express", "MongoDB", "JWT"],
       liveLink: "",
-      githubLink: "https://github.com/your-username/booking-system",
+      githubLink: "https://github.com/syam1433/FlightFinder",
       stats: { stars: "32", views: "2.1k" },
       gradient: "from-green-500 to-teal-600"
     },
@@ -38,8 +38,8 @@ export function Projects() {
       description: "Modern e-commerce solution with shopping cart, product catalog, user authentication, and order management. Includes admin panel for inventory management.",
       image: weatherimg,
       technologies: ["HTML","CSS","JAVASCRIPT"],
-      liveLink: "https://your-ecommerce-demo.herokuapp.com",
-      githubLink: "https://github.com/your-username/ecommerce-platform",
+      liveLink: "https://syam1433.github.io/WeatherApp",
+      githubLink: "https://github.com/syam1433/WeatherApp",
       stats: { stars: "48", views: "3.5k" },
       gradient: "from-purple-500 to-pink-600"
     }

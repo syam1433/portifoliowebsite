@@ -16,7 +16,7 @@ export function Technologies() {
     },
     { 
       category: "Backend", 
-      techs: ["Node.js", "Express", "JWT Auth", "API Development"],
+      techs: ["Node.js", "Express", "JWT Auth"],
       gradient: "from-green-500 to-emerald-500", 
       bgGradient: "from-green-50 to-emerald-50"
     },

@@ -124,7 +124,7 @@ export function Hero() {
               onClick={() => {
                 // Create a temporary download link for CV
                 const link = document.createElement('a');
-                link.href = '/path-to-your-cv.pdf'; // Update with actual CV path
+                link.href = '/Syamresume.pdf'; // Update with actual CV path
                 link.download = 'Syam_CV.pdf';
                 document.body.appendChild(link);
                 link.click();
