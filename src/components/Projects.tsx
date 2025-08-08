@@ -5,6 +5,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/
 import { Badge } from './ui/badge';
 import { Button } from './ui/button';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import clock  from '../assets/clock.png'
+import weatherimg from "../assets/appweather.png"
 
 export function Projects() {
   const ref = useRef(null);
@@ -12,32 +14,32 @@ export function Projects() {
 
   const projects = [
     {
-      title: "Dynamic Admin Dashboard",
+      title: "Dynamic Clock",
       description: "A comprehensive admin panel with real-time analytics, user management, and data visualization features. Built with React and Node.js backend.",
-      image: "https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXZlbG9wbWVudHxlbnwxfHx8fDE3NTQ0NjYwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      technologies: ["React", "Node.js", "MySQL", "Tailwind CSS"],
-      liveLink: "https://your-admin-dashboard-demo.netlify.app", // Replace with your actual demo URL
-      githubLink: "https://github.com/your-username/admin-dashboard", // Replace with your actual repo URL
+      image: clock,
+      technologies: ["React", "Tailwind CSS"],
+      liveLink: "https://clock-two-flame.vercel.app/", 
+      githubLink: "https://github.com/your-username/admin-dashboard", 
       stats: { stars: "25", views: "1.2k" },
       gradient: "from-blue-500 to-purple-600"
     },
     {
       title: "Booking Management System",
-      description: "Full-stack booking platform with payment integration, real-time availability, and automated email notifications. Features responsive design and secure authentication.",
+      description: "Full-stack Flight booking platform , real-time availability.Features responsive design and secure authentication.",
       image: "https://images.unsplash.com/photo-1526925539332-aa3b66e35444?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBhcHBsaWNhdGlvbnxlbnwxfHx8fDE3NTQ1NDkwMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      technologies: ["React", "Express", "MongoDB", "JWT", "Firebase"],
-      liveLink: "https://your-booking-system-demo.vercel.app", // Replace with your actual demo URL
-      githubLink: "https://github.com/your-username/booking-system", // Replace with your actual repo URL
+      technologies: ["React", "Express", "MongoDB", "JWT"],
+      liveLink: "",
+      githubLink: "https://github.com/your-username/booking-system",
       stats: { stars: "32", views: "2.1k" },
       gradient: "from-green-500 to-teal-600"
     },
     {
-      title: "E-commerce Platform",
+      title: "Real Time weather",
       description: "Modern e-commerce solution with shopping cart, product catalog, user authentication, and order management. Includes admin panel for inventory management.",
-      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXZlbG9wbWVudHxlbnwxfHx8fDE3NTQ0NjYwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      technologies: ["React", "Node.js", "MySQL", "Tailwind CSS", "Stripe"],
-      liveLink: "https://your-ecommerce-demo.herokuapp.com", // Replace with your actual demo URL
-      githubLink: "https://github.com/your-username/ecommerce-platform", // Replace with your actual repo URL
+      image: weatherimg,
+      technologies: ["HTML","CSS","JAVASCRIPT"],
+      liveLink: "https://your-ecommerce-demo.herokuapp.com",
+      githubLink: "https://github.com/your-username/ecommerce-platform",
       stats: { stars: "48", views: "3.5k" },
       gradient: "from-purple-500 to-pink-600"
     }
@@ -264,7 +266,7 @@ export function Projects() {
               variant="outline" 
               size="lg"
               className="bg-white/80 backdrop-blur-sm border-2 border-gray-300 hover:border-gray-900 hover:bg-gray-900 hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl px-8 py-4"
-              onClick={() => window.open('https://github.com/your-username', '_blank')}
+              onClick={() => window.open('https://github.com/syam1433', '_blank')}
             >
               <Github className="w-5 h-5 mr-3" />
               View All Projects on GitHub

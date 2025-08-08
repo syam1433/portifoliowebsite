@@ -70,7 +70,7 @@ export function Navigation() {
                 className={`px-3 lg:px-4 py-2 rounded-lg text-sm lg:text-base font-medium transition-all duration-300 cursor-pointer ${
                   scrolled 
                     ? 'text-gray-300 hover:text-white hover:bg-white/10' 
-                    : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
+                    : 'text-gray-200 hover:text-blue-600 hover:bg-blue-50'
                 }`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

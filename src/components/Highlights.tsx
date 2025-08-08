@@ -10,7 +10,7 @@ export function Highlights() {
   const highlights = [
     {
       icon: CheckCircle,
-      title: "3+ Internships Completed",
+      title: "2+ Internships Completed",
       description: "Gained hands-on experience in web development roles across different companies",
       gradient: "from-green-500 to-emerald-500",
       bgGradient: "from-green-100 to-emerald-100"
@@ -24,7 +24,7 @@ export function Highlights() {
     },
     {
       icon: FolderOpen,
-      title: "10+ Full-Stack Projects",
+      title: "5+ Full-Stack Projects",
       description: "Built comprehensive applications with real-time functionality and modern architectures",
       gradient: "from-purple-500 to-pink-500",
       bgGradient: "from-purple-100 to-pink-100"

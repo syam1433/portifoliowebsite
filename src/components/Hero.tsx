@@ -144,9 +144,9 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 1 }}
         >
           {[
-            { icon: Github, href: "https://github.com/your-username", label: "GitHub" },
-            { icon: Linkedin, href: "https://linkedin.com/in/your-profile", label: "LinkedIn" },
-            { icon: Mail, href: "mailto:your-email@example.com", label: "Email" }
+            { icon: Github, href: "https://github.com/syam1433", label: "GitHub" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/durga-syamalarao-paina/", label: "LinkedIn" },
+            { icon: Mail, href: "", label: "Email" }
           ].map((social, index) => (
             <motion.a
               key={index}
