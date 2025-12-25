@@ -28,7 +28,7 @@ export function Projects() {
       description: "Full-stack Flight booking platform , real-time availability.Features responsive design and secure authentication.",
       image: "https://images.unsplash.com/photo-1526925539332-aa3b66e35444?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBhcHBsaWNhdGlvbnxlbnwxfHx8fDE3NTQ1NDkwMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       technologies: ["React", "Express", "MongoDB", "JWT"],
-      liveLink: "",
+      liveLink: "https://flight-booking-system-lovat.vercel.app/",
       githubLink: "https://github.com/syam1433/FlightFinder",
       stats: { stars: "32", views: "2.1k" },
       gradient: "from-green-500 to-teal-600"
